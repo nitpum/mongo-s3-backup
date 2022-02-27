@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:5.0.6
 
 RUN apt update
 RUN apt install python s3cmd -y

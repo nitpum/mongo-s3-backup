@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BACKUP_FILE_NAME="$(date +%y-%m-%d_%H-%M-%S).gz"
+BACKUP_FILE_NAME="$(date +%Y-%m-%d_%H-%M-%S).gz"
 BACKUP_FILE_PATH="/tmp/$BACKUP_FILE_NAME"
 
 echo "access_key=$S3_ACCESS_KEY" >> /root/.s3cfg
